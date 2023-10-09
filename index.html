@@ -8,9 +8,57 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>smart life classes</title>
 </head>
-<body>
-<header>
-    `
+<body class="bg-gray-100">
+<header class="h-20 bg-indigo-900 flex justify-between">
+    <div class="flex h-20 ml-[5%] items-center text-sm">
+        <a class="px-4 pt-0.5 pb-2 mr-2 text-white rounded-md border-2 border-solid border-white hover:text-yellow-400 hover:border-yellow-400" href="#">ورود </a>
+        <a class="px-4 pt-1 pb-1.5 text-white rounded-md border-2 border-solid border-white hover:text-yellow-400 hover:border-yellow-400" href="#">ثبت نام</a>
+    </div>
+    <div class="flex items-center w-10 mr-[5%]">
+        <div class="hamburger w-9 flex flex-col gap-1 cursor-pointer absolute md:hidden">
+            <div class="line w-full h-1 bg-white rounded-lg relative top-0 transition-all duration-500"></div>
+            <div class="line w-full h-1 bg-white rounded-lg relative top-0 transition-all duration-500"></div>
+            <div class="line w-full h-1 bg-white rounded-lg relative top-0 transition-all duration-500"></div>
+            <div class="line w-full h-1 bg-white rounded-lg relative top-0 transition-all duration-500"></div>
+        </div>
+    </div>
 </header>
+<div class="navigation hidden bg-indigo-900 md:block">
+    <nav class="mx-[5%] p-2 bg-white rounded-lg">
+        <ul class="flex text-sm font-bold flex-row-reverse justify-between text-indigo-900 lg:mx-[5%] lg:text-[16px]">
+            <li class="flex"><a class="p-2 rounded-lg hover:bg-indigo-900 hover:text-yellow-400" href="#">صفحه اصلی</a></li>
+            <li class="flex"><a class="p-2 rounded-lg hover:bg-indigo-900 hover:text-yellow-400" href="#">دوره های آموزشی</a></li>
+            <li class="flex"><a class="p-2 rounded-lg hover:bg-indigo-900 hover:text-yellow-400" href="#">دانشکده هوش مصنوعی</a></li>
+            <li class="flex"><a class="p-2 rounded-lg hover:bg-indigo-900 hover:text-yellow-400" href="#">وب سایت واحد کرج</a></li>
+            <li class="flex"><a class="p-2 rounded-lg hover:bg-indigo-900 hover:text-yellow-400" href="#">اخبار</a></li>
+            <li class="flex"><a class="p-2 rounded-lg hover:bg-indigo-900 hover:text-yellow-400" href="#">درباره ما</a></li>
+            <li class="flex"><a class="p-2 rounded-lg hover:bg-indigo-900 hover:text-yellow-400" href="#">تماس با ما</a></li>
+        </ul>
+    </nav>
+</div>
+<div class="h-7 bg-indigo-900 hidden md:block"></div>
+<section class="">
+    <div class="imgs bg-white py-3.5 rounded-lg flex justify-center mx-4 mt-10 lg:py-8 lg:mx-12">
+        <div class="w-1/2 pl-1 flex justify-center"><img class="" src="./files/smartLife.webp" alt="دانشگاه آزاد اسلامی واحد کرج"></div>
+        <div class="w-1/2 flex justify-center"><img class="" src="./files/azad.webp" alt="زندگی هوشمند"></div>
+    </div>
+    <p class="text-center mt-7 font-semibold text-indigo-900 lg:text-xl">مدرسه تابستانی هوش مصنوعی</p>
+    <div class="text-center mt-5 mb-5"><a class="bg-indigo-900 text-white p-2 inline-block w-[117px] leading-loose text-lg rounded-lg" href="#">هم اکنون ثبت نام کنید</a></div>
+    <h2 class="text-indigo-900  flex justify-end mx-5 mt-14 mb-5 font-semibold lg:mx-12 lg:text-xl">دوره های آموزشی</h2>
+    <div class="container flex justify-center gap-4 mb-5">
+        <div class="w-36 h-36 bg-white flex flex-col items-center rounded-lg cursor-pointer">
+            <img class="w-28 h-20 mt-2 rounded-lg" src="./files/AI.avif" alt="AI">
+            <p class="font-semibold text-indigo-900 text-[12px] text-center mt-2">مدرسه تابستانی هوش مصنوعی</p>
+        </div>
+        <div class="w-36 h-36 bg-white flex flex-col items-center rounded-lg cursor-pointer">
+            <img class="w-28 h-20 mt-2 rounded-lg" src="./files/AI.avif" alt="AI">
+            <p class="font-semibold text-indigo-900 text-[12px] text-center mt-2">مدرسه تابستانی هوش مصنوعی</p>
+        </div>
+    </div>
+</section>
+<footer class="h-28 bg-indigo-900 flex justify-center items-center">
+    <p class="text-white text-sm text-center px-5" dir="rtl"> © کلیه حقوق این وبسایت متعلق به دانشگاه آزاد واحد کرج می باشد.</p>
+</footer>
+<script src="./main.js"></script>
 </body>
 </html>
